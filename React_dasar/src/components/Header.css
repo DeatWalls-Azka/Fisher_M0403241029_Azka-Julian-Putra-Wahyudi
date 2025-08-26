@@ -1,0 +1,126 @@
+
+.site-header {
+  background-color: #ffffff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.site-header .wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand-logo {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-decoration: none;
+  background: linear-gradient(90deg, #2a7af3, #3516a5, #02abe9f4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowing 2.5s ease-in-out infinite;
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.site-nav li {
+  margin-left: 25px;
+}
+
+.site-nav a {
+  text-decoration: none;
+  color: #34495e;
+  font-weight: 500;
+  padding: 5px 0;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+  background: linear-gradient(90deg, #045cea, #3516a5, #02abe9f4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: glowing 2.5s ease-in-out infinite;
+}
+
+/* Efek hover dengan garis bawah */
+.site-nav a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #3498db;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-in-out;
+}
+
+.site-nav a:hover {
+  color: #3498db;
+}
+
+.site-nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+/* Styling untuk Header */
+.site-header {
+  background-color: #ffffff;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.4s ease, backdrop-filter 0.4s ease, box-shadow 0.4s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .site-header .wrapper {
+    /* Tata letak tetap menyamping */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    display: flex;
+  }
+  
+  .brand-logo {
+    font-size: 1.2rem; 
+    animation: none;
+  }
+  
+  .site-nav {
+    overflow-x: initial;
+  }
+  
+  .site-nav ul {
+    white-space: nowrap;
+    display: flex;
+  }
+  
+  .site-nav li {
+    margin-left: 10px; 
+  }
+
+  .site-nav a {
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+}

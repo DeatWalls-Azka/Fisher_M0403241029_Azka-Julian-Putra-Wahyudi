@@ -1,0 +1,91 @@
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 90vh; 
+  padding: 0 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #ffffff; 
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-title {
+  font-size: 3.5rem; 
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #aaccff, #ffffff, #aaccff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 10px rgba(0, 123, 255, 0.8),
+    0 0 20px rgba(0, 123, 255, 0.8),
+    0 0 25px rgba(0, 123, 255, 0.7),
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+  background: linear-gradient(90deg, #aaccff, #ffffff, #aaccff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.9),
+    0 0 10px rgba(0, 123, 255, 0.8),
+    0 0 20px rgba(0, 123, 255, 0.8),
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #0626b4;
+  padding: 14px 32px;
+  border-radius: 50px; 
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-button:hover {
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+}
+
+.hero-profile-picture {
+  width: 200px; 
+  height: 200px; 
+  border-radius: 70%; 
+  object-fit: cover; 
+  margin-bottom: 25px;
+  border: 5px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+   background: linear-gradient(45deg, #667eea, #764ba2);
+
+   
+}
+.hero-profile-picture:hover {
+  transform: scale(1.3) rotate(3deg); 
+  box-shadow: 0 20px 35px rgba(37, 2, 237, 0.5);
+}
