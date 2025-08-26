@@ -1,12 +1,14 @@
 import React from 'react';
 import './Hero.css';
 
+import fotoProfil from '../assets/me.jpg';
+
 const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
         <img 
-          src="/me.jpg" 
+          src={fotoProfil} 
           alt="My Picture" 
           className="hero-profile-picture" 
         />
@@ -16,7 +18,7 @@ const Hero = () => {
           IPB University | M0403241029 | Proxy Fisher
         </p>
         <a href="#projects" className="hero-button">
-         See My Projects
+          See My Projects
         </a>
       </div>
     </section>

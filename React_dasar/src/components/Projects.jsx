@@ -1,11 +1,13 @@
 import React from 'react';
 import './Projects.css';
+import itTodayImage from '../assets/ittoday.png';
+
 const projectData = [
   {
     title: 'Website IT Today',
     description: 'The official website for IT Today, a technology event organized by IPB University. It was built to provide event information, registration, and competition details.',
     link: 'https://ittoday.web.id/',
-    imageUrl: '/ittoday.png',
+    imageUrl: itTodayImage,
   }
 ];
 

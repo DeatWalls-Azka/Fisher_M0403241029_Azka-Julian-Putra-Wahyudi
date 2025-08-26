@@ -1,13 +1,21 @@
 import React, { useState, useEffect, useRef } from 'react';
 import './Skillset.css';
 
+
+import htmlIcon from '../assets/html.jpg';
+import cssIcon from '../assets/css.png';
+import javascriptIcon from '../assets/javascript.png';
+import reactIcon from '../assets/react.png';
+import gitIcon from '../assets/git.png';
+import figmaIcon from '../assets/figma.png';
+
 const skills = [
-  { alt: 'HTML5 Icon', iconSrc: '/Html.jpg' },
-  { alt: 'CSS3 Icon', iconSrc: '/CSS.png' },
-  { alt: 'JavaScript Icon', iconSrc: '/Javascript.png' },
-  { alt: 'React Icon', iconSrc: '/React.png' },
-  { alt: 'Git Icon', iconSrc: '/Git.png' },
-  { alt: 'Figma Icon', iconSrc: '/Figma.png' },
+  { alt: 'HTML5 Icon', iconSrc: htmlIcon },
+  { alt: 'CSS3 Icon', iconSrc: cssIcon },
+  { alt: 'JavaScript Icon', iconSrc: javascriptIcon },
+  { alt: 'React Icon', iconSrc: reactIcon },
+  { alt: 'Git Icon', iconSrc: gitIcon },
+  { alt: 'Figma Icon', iconSrc: figmaIcon },
 ];
 
 const Skillset = () => {
