@@ -1,14 +1,14 @@
 import React from 'react';
 import './Hero.css';
 
-import fotoProfil from '../assets/me.jpg';
+import fotoprofil from '../assets/me.jpg';
 
 const Hero = () => {
   return (
     <section id="hero" className="hero-container">
       <div className="hero-content">
         <img 
-          src={fotoProfil} 
+          src={fotoprofil} 
           alt="My Picture" 
           className="hero-profile-picture" 
         />
