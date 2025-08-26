@@ -39,7 +39,7 @@ const Contact = () => {
           Contact via WhatsApp
         </a>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/azka-julian-putra-wahyudi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/azka-julian-putra-wahyudi-691440323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin size={28} />
           </a>
           <a href="https://github.com/DeatWalls-Azka" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
