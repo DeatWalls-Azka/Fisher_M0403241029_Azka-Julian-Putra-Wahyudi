@@ -1,6 +1,6 @@
 # Fisher Project – Azka Julian Putra Wahyudi
 
-🌐 **Live Website:** [Klik di sini](https://Deatwalls-Azka.github.io/Fisher_M0403241029_Azka-Julian-Putra-Wahyudi/)
+🌐 **Live Website:** [Klik di sini](https://deatwalls-azka.github.io/Fisher_M0403241029_Azka-Julian-Putra-Wahyudi/)
 
 ---
 
